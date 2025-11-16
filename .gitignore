@@ -1,0 +1,47 @@
+# ---------------------------
+# Python bytecode / cache
+# ---------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+.venv*/
+venv*/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code / IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Logs and generated data
+logs/**/*.csv
+logs/**/*.json
+logs/**/*.txt
+
+# If you use figures exported from analysis
+figures/
+*.png
+*.pdf
+
+# Environment / secrets
+*.env
+.env.*
