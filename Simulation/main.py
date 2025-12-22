@@ -55,7 +55,6 @@ TEC_ERROR_PASSIVE_THRESHOLD = 128         # TEC >= 128 -> Error-Passive
 TEC_BUS_OFF_THRESHOLD = 256               # TEC >= 256 -> Bus-Off
 
 # Failure rates by bus speed (timing becomes more critical at higher speeds)
-# Reference: "Error Handling of In-vehicle Networks Makes Them Vulnerable"
 FAILURE_RATE = {
     250: 0.02,   # 2% failure at 250 kbps (easiest timing)
     500: 0.05,   # 5% failure at 500 kbps
